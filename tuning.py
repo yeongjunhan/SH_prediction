@@ -16,7 +16,7 @@ plt.switch_backend('agg')
 
 
 def preprocessing(eev_path, matket_data_path, market_name, U_l_save_path, save_path, n1, n2, n3, data_type,
-                  test_start_date, pred_period, long_term=22, U_l_needed=False, seed=0):
+                  test_start_date, pred_period, long_term=0, U_l_needed=False, seed=0):
     """
     **preprocessing func.
 
@@ -373,18 +373,18 @@ if __name__ == '__main__':
     out_path = ''
     data_type_list = ['3Q', 'Ran', 'PC2']
 
-    n1 = 4
-    n2 = 4
-    n3 = 4
+    n1 = 0
+    n2 = 0
+    n3 = 0
     prediction = pd.read_csv(out_path + '/.csv')
     test_date = prediction['TradeDate'].iloc[-1]
-    lambda_value_list = [0.01, 0.011, 0.012, 0.013, 0.014, 0.015]
-    hidden_dim_list = [130, 120, 110, 100]
-    kprob_list = np.arange(0.7, 1, 0.05)
-    max_iter = 5
-    max_epoch = 300
-    lr_list = [0.0005]
-    thres_list = np.arange(0.05, 1, 0.05)
+    lambda_value_list = []
+    hidden_dim_list = []
+    kprob_list = np.arange()
+    max_iter = 0
+    max_epoch = 0
+    lr_list = [0.]
+    thres_list = np.arange()
     gpu = 1
 
     # Tuning step
