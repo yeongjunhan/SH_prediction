@@ -17,6 +17,6 @@ Based on the reference (Deep Learning for Event-Driven Stock Prediction. Ding et
 4. Measure the performance of the selected model.
 
 ## License
-- YeongJun, Han.(SNU graduate university, master degree at Aug, 2019, major in statistic.
+- YeongJun, Han.(SNU graduate university, master degree at Aug, 2019, major in statistics.
 - Data and paths are not available.
 - training.py and daily_prediction.py script are not available.
