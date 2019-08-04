@@ -1,5 +1,5 @@
 # SH_prediction
-SH_treasure island project (July 2018 to January 2019) sudo code
+SH project (July 2018 to January 2019) sudo code
 
 ## Purpose
 Predict stock's directional prices (2 classes. Compared to prediction period, stock prices rise or fall) with Convolutional Neural Network(CNN) and lagged logistic regression. Especially, market is some developed countries.
