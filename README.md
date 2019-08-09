@@ -18,14 +18,15 @@ Based on the reference (Deep Learning for Event-Driven Stock Prediction. Ding et
 
 ## Results
 
-Back testing results are as follows:
+Back testing results are as follows.
+
 | Market | Performance(3M) |
-|:------:|:-----------:|
-|   JP   |    64.3%    |
-|   DE   |    58.4%    |
-|   GB   |    54.5%    |
-|   S&P  |    63.1%    |
-|   KR   |    61.9%    |
+|:------:|:---------------:|
+|   JP   |      64.3%      |
+|   DE   |      58.4%      |
+|   GB   |      54.5%      |
+|   S&P  |      63.1%      |
+|   KR   |      61.9%      |
 
 ## License
 - YeongJun, Han.(SNU graduate university, master degree at Aug, 2019, major in statistics.
