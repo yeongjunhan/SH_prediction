@@ -8,7 +8,7 @@ Predict stock's directional prices (2 classes. Compared to prediction period, st
 Embedded Reuter news headline and Stock values over the past 20 years.
 
 ## Algorithm
-Based on the reference (Deep Learning for Event-Driven Stock Prediction. Ding et al.), the algorithm is as following:
+Based on the reference (Deep Learning for Event-Driven Stock Prediction. Ding et al.(2015), the algorithm is as following:
 
 0. Make haedlines into word vectors. (NLP)
 1. Summarize daily word vectors to represent the feature of that day using Principal Component(PC), Inter Quartile Range(IQR), and Median
